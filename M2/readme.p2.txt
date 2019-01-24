@@ -1,1 +1,0 @@
-Person 2: Jacob Lambert     jtlamb@gatech.edu
