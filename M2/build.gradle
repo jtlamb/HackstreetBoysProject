@@ -1,0 +1,6 @@
+jar {
+	manifest {
+		attributes:
+			'Main-Class': edu.gatech.oad.antlab.pkg1.AntLabMain
+		}
+	}
