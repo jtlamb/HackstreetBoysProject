@@ -21,18 +21,20 @@ apply plugin: 'application'
 //set up some variables
 sourceCompatibility = 1.8
 version = '1.0'
-mainClassName='AntLabMain'
+mainClassName='HelloWorld'
 
 //Define the contents of the jar file
 jar  {
   manifest {
-     attributes
-                 'Main-Class' : 'edu.gatech.oad.antlab.pkg1.AntLabMain'
+     attributes  'Implementation-Title' : 'Gradle Quickstart' ,
+                 'Implementation-Version' : version,
+                 'Main-Class' : 'AntLabMain'
     }
 
       //destinationDir = file('.')
       //archiveName = 'hello.jar'
 }
+
 dependencies {
     compile group: 'org.hibernate', name: 'hibernate-core', version: '3.6.7.Final'
 	  testCompile group: 'junit', name: 'junit', version: '4.+'
@@ -40,4 +42,5 @@ dependencies {
 
 //setup a location for repositories of any libraries that need to be downloaded
 repositories {
+   mavenCentral()
 }
