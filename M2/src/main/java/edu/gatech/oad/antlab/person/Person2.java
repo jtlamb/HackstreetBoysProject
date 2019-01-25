@@ -8,7 +8,7 @@ package edu.gatech.oad.antlab.person;
  *  @author Jacob Lambert
  *  @version 1.1
  */
-public class Person1 {
+public class Person2 {
     /** Holds the persons real name */
     private String name;
     /**
@@ -16,7 +16,7 @@ public class Person1 {
      * name
      * @param pname the person's real name
      */
-    public Person1(String pname) {
+    public Person2(String pname) {
         name = pname;
     }
     /**
