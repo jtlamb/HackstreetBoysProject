@@ -1,4 +1,4 @@
-package edu.gatech.cs2340.myapplication;
+package edu.gatech.cs2340.m5;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
